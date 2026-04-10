@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+
+<html class="light" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The Digital Curator | El sabor que te acompaña</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;family=Manrope:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "inverse-on-surface": "#f1f1f1",
+                    "surface-container": "#eeeeee",
+                    "primary": "#07231d",
+                    "surface-tint": "#48645c",
+                    "background": "#f9f9f9",
+                    "secondary-fixed-dim": "#b6cbc4",
+                    "primary-fixed-dim": "#afcdc3",
+                    "on-tertiary-container": "#bd928b",
+                    "on-surface-variant": "#414846",
+                    "tertiary": "#321713",
+                    "secondary-fixed": "#d2e7e0",
+                    "on-tertiary": "#ffffff",
+                    "surface-dim": "#dadada",
+                    "on-surface": "#1a1c1c",
+                    "primary-fixed": "#cbe9df",
+                    "surface-variant": "#e2e2e2",
+                    "on-primary-container": "#86a399",
+                    "on-secondary": "#ffffff",
+                    "outline-variant": "#c1c8c4",
+                    "inverse-primary": "#afcdc3",
+                    "on-error-container": "#93000a",
+                    "error": "#ba1a1a",
+                    "surface": "#f9f9f9",
+                    "surface-container-lowest": "#ffffff",
+                    "on-secondary-fixed": "#0c1f1b",
+                    "inverse-surface": "#2f3131",
+                    "outline": "#727975",
+                    "on-tertiary-fixed-variant": "#5f3e39",
+                    "on-secondary-fixed-variant": "#384a46",
+                    "tertiary-fixed": "#ffdad4",
+                    "on-error": "#ffffff",
+                    "on-primary-fixed-variant": "#314c44",
+                    "on-background": "#1a1c1c",
+                    "on-primary": "#ffffff",
+                    "surface-bright": "#f9f9f9",
+                    "surface-container-low": "#f3f3f3",
+                    "on-tertiary-fixed": "#2e1410",
+                    "secondary": "#4f625d",
+                    "tertiary-container": "#4a2c27",
+                    "on-secondary-container": "#556863",
+                    "tertiary-fixed-dim": "#eabcb4",
+                    "surface-container-high": "#e8e8e8",
+                    "error-container": "#ffdad6",
+                    "primary-container": "#1e3932",
+                    "surface-container-highest": "#e2e2e2",
+                    "secondary-container": "#d2e7e0",
+                    "on-primary-fixed": "#04201a"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Plus Jakarta Sans"],
+                    "body": ["Manrope"],
+                    "label": ["Manrope"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .tonal-layering-no-borders {
+            border: none !important;
+        }
+        .glass-nav {
+            background: rgba(249, 249, 249, 0.8);
+            backdrop-filter: blur(20px);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary-fixed-dim selection:text-on-primary-fixed">
+<!-- TopNavBar -->
+<nav class="w-full sticky top-0 z-50 bg-stone-50/80 backdrop-blur-md shadow-sm font-['Plus_Jakarta_Sans'] tracking-tight">
+<div class="flex justify-between items-center px-8 py-4 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-8">
+<span class="text-2xl font-bold text-emerald-900">The Digital Curator</span>
+<div class="hidden md:flex gap-6">
+<a class="text-emerald-900 font-bold border-b-2 border-emerald-900 pb-1" href="#">Menu</a>
+<a class="text-stone-600 hover:text-emerald-800 transition-colors" href="#">Rewards</a>
+<a class="text-stone-600 hover:text-emerald-800 transition-colors" href="#">Gift Cards</a>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<button class="text-stone-600 font-semibold hover:opacity-80 transition-all duration-300 scale-95 active:scale-90">Sign In</button>
+<button class="bg-primary text-on-primary px-6 py-2 rounded-full font-bold hover:opacity-90 transition-all duration-300 scale-95 active:scale-90">Join Now</button>
+</div>
+</div>
+</nav>
+<main>
+<!-- Hero Section -->
+<section class="relative min-h-[870px] flex items-center overflow-hidden bg-primary-container">
+<div class="absolute inset-0 z-0">
+<img alt="Premium coffee experience" class="w-full h-full object-cover opacity-60" data-alt="Close-up of a steaming ceramic coffee cup on a rustic dark wood table with cinematic morning sunlight and soft shadows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCDSiu24h0IW_ihdqleeWi63CHwiA_PlZ0JqAqvE5S8Y-4K_BWLht_ax3XpLyN-fY23g_0NlZtBtw0iAee1QlB6tP1Yn6UG4RAzjA-7yucIh_knG3cBEtKhwm2q5AOc-vNitMJUS_Sp2ErjAG1pSHUIGvkTMBOXP2KN_-pYIGTZwe4vTim4KxWV2FkojZz6qfRAiBMmXNeDA-LMqmsM5xUXrZfmqJpvmGS4xu8l9oAaMDesXw53Hmww3mCvDqO_OwxgKAMlWETj64Jm"/>
+</div>
+<div class="relative z-10 max-w-screen-2xl mx-auto px-8 w-full">
+<div class="max-w-2xl">
+<h1 class="font-headline text-6xl md:text-8xl font-extrabold text-on-primary leading-tight tracking-tighter mb-6">
+                        El sabor que te acompaña
+                    </h1>
+<p class="font-body text-xl md:text-2xl text-on-primary-container mb-10 max-w-xl leading-relaxed">
+                        Descubre la armonía perfecta entre granos seleccionados y el arte de la preparación artesanal. Cada sorbo cuenta una historia de calidad y dedicación.
+                    </p>
+<div class="flex gap-4">
+<button class="bg-primary-fixed text-on-primary-fixed px-10 py-5 rounded-lg font-bold text-lg hover:opacity-90 transition-all scale-95 active:scale-90">
+                            Ordena ahora
+                        </button>
+<button class="border-2 border-primary-fixed text-primary-fixed px-10 py-5 rounded-lg font-bold text-lg hover:bg-primary-fixed/10 transition-all">
+                            Ver menú
+                        </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Seasonal Drinks (Featured Items) -->
+<section class="py-24 px-8 max-w-screen-2xl mx-auto">
+<div class="flex justify-between items-end mb-16">
+<div>
+<span class="text-primary font-bold tracking-widest uppercase text-sm mb-4 block">Especiales de Temporada</span>
+<h2 class="font-headline text-4xl md:text-5xl font-extrabold text-on-surface">Favoritos del Curador</h2>
+</div>
+<a class="text-primary font-bold underline underline-offset-8 hidden md:block" href="#">Explorar todo el menú</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<!-- Drink Card 1 -->
+<div class="group bg-surface-container-low rounded-xl overflow-hidden transition-transform duration-500 hover:-translate-y-2">
+<div class="aspect-[4/5] overflow-hidden bg-primary-container">
+<img alt="Pumpkin Spice Latte" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="A creamy pumpkin spice latte in a tall glass with whipped cream and a sprinkle of cinnamon on top in a cozy autumn setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCoaxoK3mywavUQy_dCg7a2g_8Pf6Ja9RFpU0sPdUVAn4i9awllio7MmtAk3n3zYvVmqoIQrL46jLggNgmhCkZg0yaGk7T8K5AiKxf3GuAZAMLGhTqA0KancQ0LSHPFLrwhPDM3CvyNd0KogZ5NmZh_8foZs7EMlx_EuS5guWJ8iiNY7Ahr9S5mR_1dmTWCUkg5PFlxTL6MgJ3BZcHG43EY0XbAhgC3YkGS1YZi8C7mPv53KRVkp0QUW1HZFcVQG9CjFDbNyo9KCUPC"/>
+</div>
+<div class="p-6">
+<h3 class="font-headline text-xl font-bold mb-1">Pumpkin Spice Latte</h3>
+<p class="text-on-surface-variant text-sm mb-4">Calidez otoñal en cada sorbo con notas de canela y nuez moscada.</p>
+<div class="flex justify-between items-center">
+<span class="font-bold text-lg">$5.45</span>
+<button class="bg-primary text-on-primary p-2 rounded-full">
+<span class="material-symbols-outlined block">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Drink Card 2 -->
+<div class="group bg-surface-container-low rounded-xl overflow-hidden transition-transform duration-500 hover:-translate-y-2">
+<div class="aspect-[4/5] overflow-hidden bg-primary-container">
+<img alt="Iced Caramel Macchiato" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="Cold iced caramel macchiato with visible layers of espresso and milk topped with generous caramel drizzle" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCThXAU9o0XsdEg76io5MQLkefvKL7o7E4oHLU7FjfJUFX9IzRMO4SnDw_gA2TQ2GP2IbQszKGuYiNZv7H_4feQgCzs0hTgMbJF2HKFtfC1RlTgmRn9Iz_8AKXS6VycPvJpe7oMpPRQzWn2xoYy-EmS4KSV5JeeuJlr-9UNBdO1apVVrN2VcPJn6u29q_cjcr4iXxJWZQQ1OO6HPMjVqMNTp_gQQL76UOJxzK6dU7lT--EOkn5JJinEjLbh6IWGiEDtfCf2Fpr9YL2d"/>
+</div>
+<div class="p-6">
+<h3 class="font-headline text-xl font-bold mb-1">Iced Caramel Macchiato</h3>
+<p class="text-on-surface-variant text-sm mb-4">Capas refrescantes de leche fría, espresso premium y caramelo artesanal.</p>
+<div class="flex justify-between items-center">
+<span class="font-bold text-lg">$4.95</span>
+<button class="bg-primary text-on-primary p-2 rounded-full">
+<span class="material-symbols-outlined block">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Drink Card 3 -->
+<div class="group bg-surface-container-low rounded-xl overflow-hidden transition-transform duration-500 hover:-translate-y-2">
+<div class="aspect-[4/5] overflow-hidden bg-primary-container">
+<img alt="Matcha Tea Latte" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="Vibrant green matcha latte with delicate leaf latte art on the surface of the foam in a white ceramic cup" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDGeEVipDWeFpNxDEMtOBbRMjpZO90uCu7WDdLWKr1daz9V-fIafUEFt7E1H79wC9OG192NF9yoPLXm7h23Ygovsz7eLjcgoVGHqnoZ6KMnGhym5NrxQxepDjtljkcySd3NR_kmaOobHvMuAbDEaSCT7Rdqk517vMTh0Kpc96yA390iNlBYqgJe9aWCtOp0nJQw5Cb-EM0hC0g7TOZoTl9ffnGi-VXB_JEF6EPgpOA34OPay6maDcAeZo6AA3rkw1Qj4X3Ojja8jxfp"/>
+</div>
+<div class="p-6">
+<h3 class="font-headline text-xl font-bold mb-1">Matcha Tea Latte</h3>
+<p class="text-on-surface-variant text-sm mb-4">Té verde ceremonial de Shizuoka vaporizado a la perfección.</p>
+<div class="flex justify-between items-center">
+<span class="font-bold text-lg">$5.25</span>
+<button class="bg-primary text-on-primary p-2 rounded-full">
+<span class="material-symbols-outlined block">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Drink Card 4 -->
+<div class="group bg-surface-container-low rounded-xl overflow-hidden transition-transform duration-500 hover:-translate-y-2">
+<div class="aspect-[4/5] overflow-hidden bg-primary-container">
+<img alt="Mocha Frappuccino" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="Blended mocha chocolate coffee drink with thick whipped cream and dark chocolate curls on top" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDBcp_uvhXec_L1fRAnfqi90tTOJUEG9y5wsmDwnQ9Cq3Wam6Aoolby_S6OTBPjtKNP_3Og3kkZ26ZfWxJ_q94twCiFeE49nww9022fofAWMn5EuRdtb_sj32J7ZxWMNBchvgJbsIboDeuQHrzkIk_5WyJiFsYKz6zeJVbtYetrs2BpwhRfgHNUVMSf-iDHCXB5BdMoodbba04VzCSncNRMT48tA5cYUPHx_xiTT4XQDaA526gvRjA6pST6MaJacH5tI_9a0bdOBHYX"/>
+</div>
+<div class="p-6">
+<h3 class="font-headline text-xl font-bold mb-1">Mocha Frappuccino</h3>
+<p class="text-on-surface-variant text-sm mb-4">El indulgente clásico helado con chocolate belga y crema batida.</p>
+<div class="flex justify-between items-center">
+<span class="font-bold text-lg">$5.95</span>
+<button class="bg-primary text-on-primary p-2 rounded-full">
+<span class="material-symbols-outlined block">add</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Rewards Section (Asymmetric Bento) -->
+<section class="py-12 px-8 max-w-screen-2xl mx-auto">
+<div class="bg-primary rounded-2xl overflow-hidden grid grid-cols-1 md:grid-cols-12 gap-0">
+<div class="md:col-span-7 p-12 md:p-20 flex flex-col justify-center">
+<h2 class="font-headline text-4xl md:text-6xl font-bold text-on-primary mb-6">Recompensas que inspiran</h2>
+<p class="text-on-primary-container text-lg md:text-xl mb-10 max-w-lg leading-relaxed">
+                        Únete a The Digital Curator Rewards y obtén bebidas gratis, ofertas personalizadas y acceso anticipado a nuestras ediciones limitadas.
+                    </p>
+<div class="flex flex-wrap gap-4">
+<button class="bg-on-primary text-primary px-8 py-4 rounded-full font-bold hover:bg-primary-fixed transition-colors">
+                            Join Rewards
+                        </button>
+<button class="text-on-primary font-bold px-8 py-4 underline underline-offset-4">
+                            Saber más
+                        </button>
+</div>
+</div>
+<div class="md:col-span-5 relative min-h-[300px]">
+<img alt="Mobile app and rewards" class="w-full h-full object-cover" data-alt="Close-up of a stylish young person using a coffee shop loyalty app on a smartphone in a bright modern cafe" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCeiF1nIAAl6pJPflZkiUIO9aI3_66cnBVklD_fx-iEzzXZGITqvtSVoIM0v0RHWHhCVORso4a-Lna2YhLNBlrMYAgirfQxJhIEc1aKAgynJlORjSRTf4Gh_IBaVV88RsybX6SZAYfgYsRU_i4z5ZIJDmSzlKJtS7Afw-nZiswZolFDKHCMuoY8wOVC-kYFQlIlVI8ydFWhcFv3Js25dgMCuf-bAScKikA4j1QMVZtrH4-iF--SpkAJXKA69VEvjBWh07_x8sZ4XEjq"/>
+</div>
+</div>
+</section>
+<!-- About Section (Signature Product Spotlight) -->
+<section class="py-24 px-8 max-w-screen-2xl mx-auto overflow-hidden">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div class="relative">
+<div class="absolute -top-12 -left-12 w-64 h-64 bg-secondary-container rounded-full mix-blend-multiply filter blur-3xl opacity-30"></div>
+<div class="relative z-10 rounded-xl overflow-hidden shadow-2xl">
+<img alt="Our craft" class="w-full aspect-square object-cover" data-alt="Expert barista pouring steamed milk into a ceramic cup creating intricate latte art in a sunlit craft coffee shop" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHW1Z4DWFiDghYw9Qs62lW0HHTiUuWgSAWho_yXdfZcbxUn6DvwvoFFW9UG_DLQ-IJ4yvolbcLwZLvCEsteKDgEWQxgGP0h_HCyfNQR7rVOewc-nrIE_GArYJxQ8claQQwiAxrORVyMUgCB_1KwPhJSiGWrtGftEDkj0Hi8Kx2QcHyD-pb3_5qpGw1rWw580Nr1HVcnwotECMmHVC-VCACMOsWEkkR_63ZW0ioXexTw8SHJaOmX1WdwnHGbYGeNkmBnq37SwtTgYEj"/>
+</div>
+<div class="absolute -bottom-8 -right-8 w-48 h-48 bg-primary-fixed-dim rounded-xl z-20 shadow-xl overflow-hidden hidden md:block">
+<img alt="Coffee beans" class="w-full h-full object-cover" data-alt="Macro photography of roasted dark espresso beans showing oily texture and rich brown color" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6O122VAKiSLISD02fsyZzPwsM0W367MZz38mujMYwLCTpnVTaPT9V40SFtgllFLAPcToB3NyHV6kpvKmU3UkKQ1oY8W3ywMn_sVPfsmNB_sWzVDjOmHr6UMQ3iBr-6GmfR_k5vq4uVqXlNmLmueExPjU2CVvcZpp-awfJVYs1I_Sq0YocHgZo-r73S7edzdBLaey_opc12ZY8Gy6h4EQ_WGx0tt1XkdZksqMb2UkzHYlDe4ynY1jPB7crLlHI92YKi5FMond6P0TO"/>
+</div>
+</div>
+<div class="flex flex-col justify-center">
+<span class="text-primary font-bold tracking-widest uppercase text-sm mb-4 block">Nuestra Historia</span>
+<h2 class="font-headline text-4xl md:text-5xl font-extrabold text-on-surface mb-8 leading-tight">Calidad que nace del compromiso</h2>
+<p class="text-on-surface-variant text-lg mb-6 leading-relaxed">
+                        En The Digital Curator, no solo servimos café. Seleccionamos cuidadosamente granos de origen ético, trabajando directamente con fincas que comparten nuestra pasión por la excelencia y la sostenibilidad.
+                    </p>
+<p class="text-on-surface-variant text-lg mb-10 leading-relaxed">
+                        Cada barista en nuestras tiendas es un artesano capacitado para entender los matices de cada tueste, asegurando que tu experiencia sea perfecta en cada visita.
+                    </p>
+<div class="flex items-center gap-6">
+<div class="text-center">
+<p class="text-3xl font-black text-primary">100%</p>
+<p class="text-xs uppercase font-bold text-on-surface-variant tracking-tighter">Orgánico</p>
+</div>
+<div class="w-px h-12 bg-outline-variant/30"></div>
+<div class="text-center">
+<p class="text-3xl font-black text-primary">15+</p>
+<p class="text-xs uppercase font-bold text-on-surface-variant tracking-tighter">Orígenes</p>
+</div>
+<div class="w-px h-12 bg-outline-variant/30"></div>
+<div class="text-center">
+<p class="text-3xl font-black text-primary">Ethic</p>
+<p class="text-xs uppercase font-bold text-on-surface-variant tracking-tighter">Sourcing</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full mt-auto bg-stone-100 font-['Manrope'] text-sm">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-12 py-16 max-w-screen-2xl mx-auto">
+<div class="space-y-6">
+<span class="text-lg font-black text-emerald-900">The Digital Curator</span>
+<p class="text-stone-500 max-w-xs">Elevando la cultura del café a través de la curaduría digital y la excelencia artesanal.</p>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-emerald-900 cursor-pointer">public</span>
+<span class="material-symbols-outlined text-emerald-900 cursor-pointer">chat</span>
+<span class="material-symbols-outlined text-emerald-900 cursor-pointer">favorite</span>
+</div>
+</div>
+<div class="space-y-4">
+<h4 class="font-bold text-on-surface uppercase tracking-widest text-xs">Compañía</h4>
+<ul class="space-y-3">
+<li><a class="text-stone-500 hover:text-emerald-700 transition-colors" href="#">Nuestra Misión</a></li>
+<li><a class="text-stone-500 hover:text-emerald-700 transition-colors" href="#">Sostenibilidad</a></li>
+<li><a class="text-stone-500 hover:text-emerald-700 transition-colors" href="#">Prensa</a></li>
+</ul>
+</div>
+<div class="space-y-4">
+<h4 class="font-bold text-on-surface uppercase tracking-widest text-xs">Servicios</h4>
+<ul class="space-y-3">
+<li><a class="text-stone-500 hover:text-emerald-700 transition-colors" href="#">Localizador de Tiendas</a></li>
+<li><a class="text-stone-500 hover:text-emerald-700 transition-colors" href="#">Servicio a Domicilio</a></li>
+<li><a class="text-stone-500 hover:text-emerald-700 transition-colors" href="#">Eventos</a></li>
+</ul>
+</div>
+<div class="space-y-4">
+<h4 class="font-bold text-on-surface uppercase tracking-widest text-xs">Legal</h4>
+<ul class="space-y-3">
+<li><a class="text-stone-500 hover:text-emerald-700 transition-colors" href="#">Privacy Policy</a></li>
+<li><a class="text-stone-500 hover:text-emerald-700 transition-colors" href="#">Terms of Use</a></li>
+<li><a class="text-stone-500 hover:text-emerald-700 transition-colors" href="#">Cookie Preferences</a></li>
+</ul>
+</div>
+</div>
+<div class="px-12 py-8 border-t border-stone-200 text-stone-500 flex flex-col md:flex-row justify-between items-center gap-4 max-w-screen-2xl mx-auto">
+<span>© 2024 The Digital Curator. All rights reserved.</span>
+<div class="flex gap-6">
+<a class="hover:text-emerald-700" href="#">CA Supply Chain</a>
+</div>
+</div>
+</footer>
+</body></html>
